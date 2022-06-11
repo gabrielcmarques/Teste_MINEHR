@@ -4,13 +4,15 @@ from plot_dados.models import DatabaseTeste
 
 class DMS_1(serializers.ModelSerializer):   
     ticket_medio_por_cliente = serializers.SerializerMethodField()
+    
     class Meta:
         model = DatabaseTeste
         fields = [
             'total_vendas',
             'contagem_clientes_mes',
             'ticket_medio_por_cliente',
-            ]    
+            ]  
+
     def get_ticket_medio_por_cliente(self, obj):
         vendas_mes = int(obj.total_vendas)        
         clientes_mes = int(obj.contagem_clientes_mes)  
@@ -34,4 +36,4 @@ class DMS_3(serializers.ModelSerializer):
             'mes_referencia',
             'total_vendas',            
             'tipo_compra',
-            ]     
+            ]
