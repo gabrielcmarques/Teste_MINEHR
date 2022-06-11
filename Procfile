@@ -1,0 +1,1 @@
+web: gunicorn teste_minehr.wsgi --log-file -
