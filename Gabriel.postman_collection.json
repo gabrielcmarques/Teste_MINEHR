@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "1f010a5d-6f6f-45b9-8ffb-655b7ec0496e",
+		"name": "MINEHR_COLLECTION_GABRIEL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18475082"
+	},
+	"item": [
+		{
+			"name": "Primeiro",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URLMINEHR}}.com/api/primeiro/",
+					"host": [
+						"{{URLMINEHR}}",
+						"com"
+					],
+					"path": [
+						"api",
+						"primeiro",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Segundo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URLMINEHR}}.com/api/segundo/",
+					"host": [
+						"{{URLMINEHR}}",
+						"com"
+					],
+					"path": [
+						"api",
+						"segundo",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Terceiro",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URLMINEHR}}.com/api/terceiro/",
+					"host": [
+						"{{URLMINEHR}}",
+						"com"
+					],
+					"path": [
+						"api",
+						"terceiro",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

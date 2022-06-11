@@ -58,6 +58,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'teste_minehr.wsgi.application'
+
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
